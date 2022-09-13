@@ -1,0 +1,16 @@
+body {
+
+}
+
+header {
+    display: flex;
+    font-family: 'Gilroy-Bold', sans-serif;;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
