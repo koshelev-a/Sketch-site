@@ -1,10 +1,34 @@
 body {
-
+    margin: 0;
 }
 
-header {
+a {
+    color: #828282;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #070707;
+}
+
+.menu {
+    max-width: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    font-family: 'Gilroy-Bold', sans-serif;;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.line{
+    max-width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #000;
 }
 
 li {
@@ -13,4 +37,83 @@ li {
 
 ul {
     padding-left: 0;
+}
+
+/* Контент блоки*/
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.zag {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.name_creater {
+    margin: auto;
+    padding-top: 40px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 47px;
+}
+
+.home_page {
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.home_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+}
+
+.home_img {
+    max-width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-image: url(/img/home.png);
+    background-size: cover;
+}
+
+.about_page {
+    width: 100%;
+    height: 505px;
+    background-color: #F6F6F6;
+}
+
+.skill_page {
+    height: 610px;
+}
+
+.portfolio_page {
+    height: 2250px;
+    background-color: #F6F6F6;
+}
+
+.contacts_footer {
+    height: 620px;
 }
