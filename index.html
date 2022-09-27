@@ -7,25 +7,29 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <title>Document</title>
-    <script src="/js/main.js"></script>
+    <script src="/js/main.js" defer></script>
 </head>
+
 <header>
-    <div class="content">
-        <div class="menu">
-                <ul>
-                    <li><a href="https://schoolsw3.com/" target="_blank">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>     
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-        </div>
+    <section class="content">
+
+        <nav class="menu">
+            <ul>
+                <li><a class="nav_a" href="#" target="_blank">Home</a></li>
+                <li><a class="nav_a" href="#">About Me</a></li>
+                <li><a class="nav_a" href="#">Skills</a></li>
+                <li><a class="nav_a" href="#">Portfolio</a></li>     
+                <li><a class="nav_a" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
         <div class="line"></div>
-    </div>
+    </section>
 </header>
+
 <body>
 
-    <div class="content">
+    <section class="content">
         <div class="home_page">
             <div class="name_creater">Artyom<br>Koshelev</div>
             <div class="home_text">
@@ -44,8 +48,8 @@
             <div class="con">
                 <div class="zag">About Me</div>
                     <div class="text">
-                        Hi, I'm Denis – UX/UI designer from Minsk. 
-                        I'm interested in design and everything connected with it.
+                        Hi, I'm Denis – UX/UI designer from Minsk.<p></p> 
+                        I'm interested in design and everything connected with it.<p></p>
                         <p>I'm studying at courses "Web and mobile design 
                         interfaces" in IT-Academy.</p>
                         Ready to implement excellent projects
@@ -59,11 +63,11 @@
                 <div class="text">
                     I work in such programs as
                 </div>
-            <div class="img">
-                <a href="https://schoolsw3.com/"><img src="/img/PS.svg" alt="Photoshop"></a>
+            <div class="skill_img">
+                <img src="/img/PS.svg" alt="Photoshop"></a>
                 <img src="/img/AI.svg" alt="">
                 <img src="/img/AE.svg" alt="">
-                <img src="/img/Figma.svg" alt="">
+                <img src="/img/Figma.svg" alt="Figma">
             </div>
         </div>
 
@@ -73,39 +77,29 @@
         
         <div class="contacts_footer">
             <div class="zag">Contacts</div>
-            <div class="text">
-                Want to know more or just chat? 
+            <div class="text" id="footer_text">
+                Want to know more or just chat?<p></p>
                 You are welcome!
             </div>
+
+            <div class="message_box">
+                <a href="#" class="message_button">Send message</a>
+            </div>
+
+            <div class="footer_icon">
+                <a href="#"><img class="ft_img" src="/img/in.svg" alt=""></a>
+                <a href="#"><img class="ft_img" src="/img/insta.svg" alt=""></a>
+                <a href="#"><img class="ft_img" src="/img/be.svg" alt=""></a>
+                <a href="#"><img class="ft_img" src="/img/web.svg" alt=""></a>
+            </div>
+
+            <div class="text" id="footer_like">
+                Like me on<p></p>
+                LinkedIn, Instagram, Behance, Dribble
+            </div>
+
         </div>
-    </div>
 
-    <tablr>
-        <tr>
-            <tb></tb>
-            <tb></tb>
-            <tb></tb>
-        </tr>
-        <tr>
-            <tb></tb>
-            <tb></tb>
-            <tb></tb>
-        </tr>
-    </tablr>
-
-    <table>
-        <tr>
-            <tb>1яцейка</tb>
-            <tb>2яцейка</tb>
-        </tr>
-        <tr>
-            <tb>1яцейка</tb>
-            <tb>2яцейка</tb>
-        </tr>
-        <tr>
-            <tb>1яцейка</tb>
-            <tb>2яцейка</tb>
-        </tr>
-    </table>
+    </section>
 </body>
 </html>
