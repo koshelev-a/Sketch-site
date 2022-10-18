@@ -159,17 +159,21 @@ li {
     background-color: #F6F6F6;
 }
 
+
 /*  Подвал */
-.contacts_footer {
+.footer {
     display: block;
 }
 
-.message_box {
+
+/* Блок отправки сообщения */
+.footer_message_box {
     display: flex;
     justify-content: center;
 }
 
-.message_button {
+/* кнопка отправки сообщения */
+.footer_message_button {
     display: inline-block;
     color: rgb(255, 255, 255);
     background-color: #000;
@@ -178,21 +182,35 @@ li {
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 18px;
     line-height: 22px;
-    transition: .5s;
+    transition: .3s;
 }
-
-.message_button:hover {
+.footer_message_button:hover {
     background-color: #828282;
   }
 
-.footer_icons {
+
+/* Блок иконки */
+.footer_icons_box {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    margin: 40px 0px 40px;
 }
 
-.footer_icons_cards
+/* Блок иконки */
+.footer_icons_cards {
+    flex: 0 1 70px;
+    padding: 10px;
+}
+
+/* Иконка */
+.footer_icons_image {
+    object-fit: cover;
+}
+.footer_icons_image:hover {
+    color: #828282;
+}
+
 
 #footer_text{
     padding-bottom: 30px;
