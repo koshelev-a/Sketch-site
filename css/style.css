@@ -112,20 +112,19 @@ li {
 }
 
 /* Информация */
-.about_page {
+.about {
     width: 100%;
     height: 505px;
     background-color: #F6F6F6;
 }
 
 /* Скилл */
-.skill_page {
+.skill {
     max-width: 100%;
-    height: 610px;
     display: block;
 }
 
-.skill_{
+.skill_cards{
     display: flex;
     justify-content: center;
 }
@@ -138,7 +137,7 @@ li {
     padding: 70px;
 }
 
-.skill_img {
+.skill_image {
     width: 90px;
     height: 90px;
 }
@@ -153,9 +152,25 @@ li {
 
 
 /* */
-.portfolio_page {
-    height: 2250px;
+.portfolio {
     background-color: #F6F6F6;
+}
+
+.portfolio_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+}
+
+.portfolio_text {
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 /*  Подвал */
